@@ -1,13 +1,11 @@
 Rails.application.routes.draw do
-  get 'page/beranda'
+  resources :rukuntetanggas
 
-  get 'page/tentang_kami'
+  get 'beranda'
 
-  get 'page/visi_misi'
+  get 'tentang_kami'
 
-  get 'beranda/tentang_kami'
-
-  resources :rukunwargas
+  get 'visi_misi'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

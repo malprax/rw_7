@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class RukunwargaTest < ActiveSupport::TestCase
+class RukuntetanggaTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
